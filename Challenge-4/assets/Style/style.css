@@ -1,0 +1,73 @@
+/*Universal Declarations*/
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    background-color:darkgrey;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h2{
+    font-weight: bold;
+    margin: 0;
+    left: 10%;
+    position: absolute;
+    top: 5%;
+}
+.clock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    right: 15%;
+    font-size: 20px;
+    top: 5%;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+*/
+.welcome{
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 46%;
+    align-items: center;
+}
+.explanation{
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 42%;
+    align-items: center;
+}
+
+.btn{
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    padding:15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:darkturquoise;
+    top: 40%;
+    right: 50%;
+}
+
