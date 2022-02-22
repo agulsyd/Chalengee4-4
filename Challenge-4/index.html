@@ -12,38 +12,59 @@
         <h2 id="highscore">View High Sores</h2>
     </header>
     <main>
+
+
+        <!-- Information about the game --->
+
         <div id="information">
             <h2 class="welcome">
                 Coding Quiz Challenge
             </h2>  
-        <button class="btn" id="btnn">Start Quiz</button>
+        <button class="btn1" id="btnn"> Start Quiz </button>
          <div class="explanation" >
                 You have 30 seconds to answer all five questions. Good Luck!
             </div>
         </div>
 
-
-
-
-    <div id="quizsect">
-    <div id="Timer">
-        <h4>Time Left</h4>
+    <div id="Tiempo">
+    <div id="Timer" class="clock">
+        <h4>Time Left: </h4>
         <h4 id="time">00</h4>
     </div>
     </div>
 
 
-    <div id="preguntas">
-        <h2 id="questionn">1.</h2>
-        <h2 id="questionT">Prueba</h2>
-    </div>
+        <div class="mainn" id="quizsect">
+            <div class="mainsect">
+                <h2 class="question">Pregunta Pa</h2>
+                <br>
+                <ul>
+                    <li>
+                        <input type="radio" name="respuesta" id="respuesta1" class="answers">
+                        <label for="respuesta1" id="1option" >Answer Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="respuesta" id="respuesta2" class="answers">
+                        <label for="respuesta2" id="2option" >Answer Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="respuesta" id="respuesta3" class="answers">
+                        <label for="respuesta3" id="3option" >Answer Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="respuesta" id="respuesta3" class="answers">
+                        <label for="respuesta3" id="4option" >Answer Option</label>
+                    </li>
+                </ul>
+                <br>
+                    <button id="accept">Submit!</button>
+                <div id="score" class="scoree">
+                </div>
 
+            </div>
 
-
-
-
-
-
-            <script src="./assets/Script/script.js"></script>
+        </div>
+        <script src="./assets/Script/script.js"></script>
+        
         </main>
     

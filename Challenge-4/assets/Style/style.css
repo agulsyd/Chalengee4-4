@@ -3,7 +3,6 @@
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    background-color:darkgrey;
 }
 header{
     display: flex;
@@ -17,31 +16,27 @@ header h2{
     position: absolute;
     top: 5%;
 }
-.clock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: absolute;
-    right: 15%;
-    font-size: 20px;
-    top: 5%;
-    font-weight: bold;
+/*Quiz Presentation*/
+body{
+    background-color:rgb(27, 196, 139)
 }
-
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/*
-.box{
+
+.btn1{
+    flex-wrap: wrap;
+    display: flex;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    padding:15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:darkturquoise;
+    top: 40%;
+    right: 50%;
 }
-*/
 .welcome{
     flex-wrap: wrap;
     display: flex;
@@ -59,15 +54,69 @@ main{
     align-items: center;
 }
 
-.btn{
-    flex-wrap: wrap;
+/*Timer Section*/
+.clock {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
     position: absolute;
-    padding:15px 15px;
-    font-size: 15px;
+    right: 15%;
+    font-size: 20px;
+    top: 5%;
     font-weight: bold;
-    background-color:darkturquoise;
-    top: 40%;
-    right: 50%;
 }
+
+
+
+.mainn{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color:cadetblue;
+    top: 40%;
+    right: 40%;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    box-shadow: 5px 5px 8px 5px #000000;
+    border-radius: 10px;
+    
+
+}
+
+.mainsect h2{
+    margin-top: 3px;
+    font-size: 40px;
+}
+
+.mainsect li{
+    font-size: 20px;
+}
+
+input{
+    cursor: pointer;
+}
+
+#accept, .btn{
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    padding: 15px 30px 15px 30px;
+    background-color: cyan;
+    margin-top: 20px;
+    border:solid 2px black;
+}
+
+#score{
+    background-color: rgb(0, 153, 158);
+    margin-top: 5px;
+    padding: 20px;
+}
+
+
+
+
 
